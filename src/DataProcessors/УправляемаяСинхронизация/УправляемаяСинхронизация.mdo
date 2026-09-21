@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb6f2599-f845-4524-9472-1383fa57f473">
+  <producedTypes>
+    <objectType typeId="7121f4a7-b4e7-403f-8909-1f77f398fdfb" valueTypeId="e3991697-fbc5-49c5-bd3e-b7dbfde35416"/>
+    <managerType typeId="bfbda6cc-ffe5-4552-bdda-18fe5a57eb1d" valueTypeId="81371e33-e8ba-48d0-962f-8047ab0d0952"/>
+  </producedTypes>
+  <name>УправляемаяСинхронизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управляемая синхронизация (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправляемаяСинхронизация.Form.Форма</defaultForm>
+  <forms uuid="b88236bf-0f79-454d-a771-d6464115893d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

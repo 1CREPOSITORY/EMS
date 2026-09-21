@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f71dd44e-700c-4f7d-9607-1ff0b6d29a73" extendedConfigurationObject="cae8a6f2-bbe9-4b73-b839-9bf8e5e2818d">
+  <producedTypes>
+    <objectType typeId="1529c6f0-feeb-4b11-947b-af0696236d0e" valueTypeId="c57f8058-e92a-4e36-9ba8-a9792a5b455c"/>
+    <managerType typeId="d41edcd2-86ad-4ea7-ac69-9eef4ac67395" valueTypeId="ca919e93-272f-4cf7-bc83-4638bdbae6e2"/>
+  </producedTypes>
+  <name>КонвертацияОбъектовИнформационныхБаз</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="5aa9f741-397f-4e29-8eb6-9e7ceedf4ce2" extendedConfigurationObject="811f356f-554a-4a63-90b6-dedb5fec7c05">
+    <name>ОтладкаОбработчиковЗагрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension/>
+    </extension>
+  </attributes>
+  <attributes uuid="26baf8a6-3d68-4c6d-b16a-2a77b1eea076" extendedConfigurationObject="1491cc2a-b3be-4bcc-a181-ce68d4b5d4cb">
+    <name>ПродолжитьПриОшибке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension/>
+    </extension>
+  </attributes>
+</mdclass:DataProcessor>

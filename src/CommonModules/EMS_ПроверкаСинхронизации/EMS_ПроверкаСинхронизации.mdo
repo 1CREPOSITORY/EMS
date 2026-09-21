@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="423b7439-7f5d-4fb3-a421-db367a4f2e6d">
+  <name>EMS_ПроверкаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS проверка синхронизации</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

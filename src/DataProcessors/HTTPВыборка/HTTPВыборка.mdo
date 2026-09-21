@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44d1bdeb-2042-46c7-8936-3b89a375b9ef">
+  <producedTypes>
+    <objectType typeId="eb501f08-794f-480a-9833-5222626ac47c" valueTypeId="a7964efa-81d9-49ad-9945-0d77da70c3c3"/>
+    <managerType typeId="9f9ad2ee-a8ec-4ba0-9b1b-7518a8511231" valueTypeId="b559ef89-870c-410b-ae5f-ff7fc984dc21"/>
+  </producedTypes>
+  <name>HTTPВыборка</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP  Выборка (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.HTTPВыборка.Form.Форма</defaultForm>
+  <forms uuid="658af411-6b47-475a-993b-25ea39a2e4f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

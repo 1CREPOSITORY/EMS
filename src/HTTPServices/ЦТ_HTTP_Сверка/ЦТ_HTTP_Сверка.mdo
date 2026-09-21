@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aa7400e-9e2c-42fe-92a0-650ed152c30d">
+  <name>ЦТ_HTTP_Сверка</name>
+  <synonym>
+    <key>ru</key>
+    <value>HTTP Сверка</value>
+  </synonym>
+  <rootURL>sverka</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c8fcc26c-281e-47b5-80ce-fea1c3049b0a">
+    <name>ПолучитьОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить объекты</value>
+    </synonym>
+    <template>/V1/{ИмяМетода}</template>
+    <methods uuid="2730113e-1276-4eb1-a5cd-087163e62c00">
+      <name>Выборка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выборка</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОбъектыВыборка</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="27248aec-9762-4aec-9ca8-a47a37e8360d">
+    <name>Изменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <template>/V1/register-changes</template>
+    <methods uuid="f72fba94-c8c8-4839-af4c-e9a40bd9c30f">
+      <name>Зарегистрировать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зарегистрировать</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ИзмененияЗарегистрировать</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6d2ff6a4-7c0b-4c78-956d-0acdbd2209aa">
+    <name>ЗапускОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск обмена</value>
+    </synonym>
+    <template>/V1/run-exchange</template>
+    <methods uuid="05e84b54-4a0f-4a39-bf3b-c295da07d2b3">
+      <name>Запустить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запустить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОбменЗапустить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

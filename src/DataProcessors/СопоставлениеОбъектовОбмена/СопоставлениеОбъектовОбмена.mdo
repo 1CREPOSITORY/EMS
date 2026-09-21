@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52a86ded-03d7-4772-9251-b29a251eb631">
+  <producedTypes>
+    <objectType typeId="8da980ee-9269-4367-831e-b18e65e47ac2" valueTypeId="bf63b6c6-521f-4a2e-8d75-d9d90800bb78"/>
+    <managerType typeId="34cf8992-fdd3-4700-b036-08700332062c" valueTypeId="7ddd294f-374b-4d79-ac17-a0235dd0b5f2"/>
+  </producedTypes>
+  <name>СопоставлениеОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление объектов обмена (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СопоставлениеОбъектовОбмена.Form.Форма</defaultForm>
+  <forms uuid="8b1aaf76-d06c-4c18-b59e-30a1228d8a8f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="03794f67-d390-40ab-b99b-e37fb6d5f5d0">
+    <name>ФормаНастройкиРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

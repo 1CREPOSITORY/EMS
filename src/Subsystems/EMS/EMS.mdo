@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3b25e91-7313-475e-9e35-74cb39bc828a">
+  <name>EMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЦТ_Logo</picture>
+  </picture>
+  <content>InformationRegister.EMS_ОбъектыОбмен</content>
+  <content>InformationRegister.EMS_КодСопоставленияОрганизации</content>
+  <content>DataProcessor.ПоискГУИДОВиОбъектов</content>
+  <content>DataProcessor.КоннекторФормОбработок</content>
+  <content>DataProcessor.УправляемаяСинхронизация</content>
+  <content>DataProcessor.HTTPВыборка</content>
+  <content>DataProcessor.ПоискОбъектНеНайден</content>
+  <content>DataProcessor.СопоставлениеОбъектовОбмена</content>
+  <content>HTTPService.ЦТ_HTTP_Сверка</content>
+  <content>CommonModule.ЦТ_ОбщегоНазначенияНаСервере</content>
+  <content>Catalog.EMS_ПараметрыБаз</content>
+  <content>InformationRegister.EMS_ОбъектыМетаданных</content>
+  <content>InformationRegister.EMS_СообщенияСинхронизации</content>
+  <content>DataProcessor.EMS_ПроверкаСинхронизации</content>
+</mdclass:Subsystem>

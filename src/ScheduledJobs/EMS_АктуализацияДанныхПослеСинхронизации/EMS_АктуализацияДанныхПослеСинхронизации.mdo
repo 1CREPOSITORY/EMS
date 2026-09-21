@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a750d92a-32e2-433e-9aca-fffc23a2b84e">
+  <name>EMS_АктуализацияДанныхПослеСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS актуализация данных после синхронизации</value>
+  </synonym>
+  <methodName>CommonModule.EMS_ПроверкаСинхронизации.АктуализироватьДанныеПослеСинхронизации</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d65b4880-723f-403e-aa38-1bb60791ea56">
+  <producedTypes>
+    <objectType typeId="e764c721-b001-496b-98ae-c61887cc931a" valueTypeId="7c1789a2-b984-4d1b-b2b8-43c8554ec1a6"/>
+    <managerType typeId="e8606634-62df-42ce-ab59-f3a1cfb9b31f" valueTypeId="6e7a68fe-d97a-4299-acbb-73f3c45c48f7"/>
+  </producedTypes>
+  <name>EMS_ПроверкаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка синхронизации (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.EMS_ПроверкаСинхронизации.Form.Форма</defaultForm>
+  <forms uuid="0b67882d-58f0-499d-9afd-78fd6ca809fa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

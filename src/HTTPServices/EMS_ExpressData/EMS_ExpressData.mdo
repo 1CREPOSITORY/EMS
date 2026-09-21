@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e8a7d68-04df-4f89-8b23-d01ee7e5f2c3">
+  <name>EMS_ExpressData</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS Express data</value>
+  </synonym>
+  <rootURL>ems-express-data</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c85c28d7-efbf-4f5e-91f4-7558af56f250">
+    <name>command</name>
+    <synonym>
+      <key>ru</key>
+      <value>Command</value>
+    </synonym>
+    <template>/V1/command</template>
+    <methods uuid="b83a08f8-447b-4f10-91f0-85336f908e89">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>commandPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

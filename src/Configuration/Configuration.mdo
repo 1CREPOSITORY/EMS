@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="801e5512-f3f0-4ea7-b852-84c41b8ab70c">
+  <name>EMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange management system</value>
+  </synonym>
+  <comment>Применимо к БП, УХ, в обе стороны</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <homePageWorkArea>Extended</homePageWorkArea>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4f70ea2c-63d4-485e-89ef-71c55f8d7d4b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b3ce511c-31b0-4a9c-8058-8fba5d458000"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4610497b-e2c0-4e98-811b-4dcc4250430f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="05882039-fc0f-4280-b1cd-f3ea21c007e4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2413dc3f-0acb-44cf-a278-4b9549b2acf9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="67eeeb4d-e10a-46b0-92c6-7cb569fae442"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="641a55ef-83a4-4c90-b2de-f50129576185"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЦТ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.EMS_ОсновнаяРоль</defaultRoles>
+  <version>26_09_09_v3</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="30354782-b3e3-449a-9eac-4b2a35a984e3">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.EMS</subsystems>
+  <commonPictures>CommonPicture.ЦТ_Logo</commonPictures>
+  <roles>Role.EMS_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ОбменДаннымиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ЦТ_ОбщегоНазначенияНаСервере</commonModules>
+  <commonModules>CommonModule.EMS_ПроверкаСинхронизации</commonModules>
+  <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
+  <commonModules>CommonModule.EMS_Express</commonModules>
+  <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
+  <httpServices>HTTPService.ЦТ_HTTP_Сверка</httpServices>
+  <httpServices>HTTPService.Express</httpServices>
+  <httpServices>HTTPService.EMS_ExpressData</httpServices>
+  <scheduledJobs>ScheduledJob.EMS_ПроверкаСинхронизации</scheduledJobs>
+  <scheduledJobs>ScheduledJob.EMS_АктуализацияДанныхПослеСинхронизации</scheduledJobs>
+  <catalogs>Catalog.EMS_ПараметрыБаз</catalogs>
+  <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
+  <dataProcessors>DataProcessor.СопоставлениеОбъектовОбмена</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискОбъектНеНайден</dataProcessors>
+  <dataProcessors>DataProcessor.HTTPВыборка</dataProcessors>
+  <dataProcessors>DataProcessor.УправляемаяСинхронизация</dataProcessors>
+  <dataProcessors>DataProcessor.КоннекторФормОбработок</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискГУИДОВиОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.EMS_ПроверкаСинхронизации</dataProcessors>
+  <informationRegisters>InformationRegister.EMS_ОбъектыОбмен</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_КодСопоставленияОрганизации</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_ОбъектыМетаданных</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_СообщенияСинхронизации</informationRegisters>
+</mdclass:Configuration>

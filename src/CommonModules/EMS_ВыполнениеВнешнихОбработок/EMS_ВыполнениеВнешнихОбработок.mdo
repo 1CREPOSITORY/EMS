@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7e8d9c0-b1a2-4c3d-8e5f-6a7b8c9d0e1f">
+  <name>EMS_ВыполнениеВнешнихОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS выполнение внешних обработок</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
