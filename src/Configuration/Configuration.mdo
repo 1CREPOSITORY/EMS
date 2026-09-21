@@ -46,10 +46,11 @@
   <roles>Role.EMS_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ОбменДаннымиПереопределяемый</commonModules>
   <commonModules>CommonModule.ЦТ_ОбщегоНазначенияНаСервере</commonModules>
+  <commonModules>CommonModule.СинхронизацияДанныхЗарплатаКадрыСервер</commonModules>
   <commonModules>CommonModule.EMS_ПроверкаСинхронизации</commonModules>
   <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
-  <commonModules>CommonModule.EMS_Express</commonModules>
   <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
+  <commonModules>CommonModule.EMS_Express</commonModules>
   <httpServices>HTTPService.ЦТ_HTTP_Сверка</httpServices>
   <httpServices>HTTPService.Express</httpServices>
   <httpServices>HTTPService.EMS_ExpressData</httpServices>
