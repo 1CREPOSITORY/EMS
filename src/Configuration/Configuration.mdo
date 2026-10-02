@@ -49,8 +49,8 @@
   <commonModules>CommonModule.СинхронизацияДанныхЗарплатаКадрыСервер</commonModules>
   <commonModules>CommonModule.EMS_ПроверкаСинхронизации</commonModules>
   <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
-  <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
   <commonModules>CommonModule.EMS_Express</commonModules>
+  <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
   <httpServices>HTTPService.ЦТ_HTTP_Сверка</httpServices>
   <httpServices>HTTPService.Express</httpServices>
   <httpServices>HTTPService.EMS_ExpressData</httpServices>
