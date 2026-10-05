@@ -1086,7 +1086,7 @@
             </items>
             <items xsi:type="form:Button">
               <name>ЗаполнитьМетаданные</name>
-              <id>167</id>
+              <id>171</id>
               <title>
                 <key>ru</key>
                 <value>Заполнить метаданные</value>
@@ -1098,7 +1098,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ОбъектыМетаданныхЗаполнитьМетаданныеРасширеннаяПодсказка</name>
-                <id>168</id>
+                <id>172</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2286,6 +2286,10 @@
       <value>Заполнить метаданные</value>
     </title>
     <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Объекты метаданных заполняются по составу плана обмена &quot;ОбменДаннымиZ&quot;.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
