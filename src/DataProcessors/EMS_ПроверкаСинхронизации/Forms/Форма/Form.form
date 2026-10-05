@@ -1084,6 +1084,35 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>ЗаполнитьМетаданные</name>
+              <id>167</id>
+              <title>
+                <key>ru</key>
+                <value>Заполнить метаданные</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОбъектыМетаданныхЗаполнитьМетаданныеРасширеннаяПодсказка</name>
+                <id>168</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьМетаданные</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
@@ -2247,6 +2276,22 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗарегистрироватьКОбмену</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьМетаданные</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить метаданные</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьМетаданные</name>
       </handler>
     </action>
   </formCommands>
