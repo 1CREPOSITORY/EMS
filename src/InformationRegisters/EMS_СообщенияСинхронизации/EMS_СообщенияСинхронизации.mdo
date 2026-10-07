@@ -259,6 +259,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
   </resources>
+  <resources uuid="c4e8a1b2-6d3f-4e70-9a15-7b2c8d0e4f61">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
   <dimensions uuid="df0274e1-a15b-4a0e-aa62-42291a4c89d8">
     <name>База</name>
     <synonym>
@@ -315,27 +333,6 @@
     <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="69348e5d-849a-4f96-ab78-b4566eb8041c">
-    <name>Сообщение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сообщение</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1000</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value>          </value>
-    </fillValue>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="78b62d16-99e3-4848-9240-28a329bf1002">
     <name>Дата</name>
     <synonym>
@@ -345,6 +342,26 @@
     <type>
       <types>Date</types>
       <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e7a91c04-2b58-4d6e-8f30-5c1d9a6b3e27">
+    <name>НомерЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
