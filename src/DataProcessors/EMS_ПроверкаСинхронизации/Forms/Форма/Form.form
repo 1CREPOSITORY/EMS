@@ -657,51 +657,6 @@
       <items xsi:type="form:FormGroup">
         <name>СтраницаОбъектыМетаданных</name>
         <id>7</id>
-        <items xsi:type="form:FormField">
-          <name>НаименованиеПланаОбмена</name>
-          <id>180</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>НаименованиеПланаОбмена</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>НаименованиеПланаОбменаРасширеннаяПодсказка</name>
-            <id>182</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НаименованиеПланаОбменаКонтекстноеМеню</name>
-            <id>181</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>45</width>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>true</horizontalStretch>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <dropListButton>true</dropListButton>
-            <choiceButton>false</choiceButton>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-          </extInfo>
-        </items>
         <items xsi:type="form:Table">
           <name>ОбъектыМетаданных</name>
           <id>34</id>
@@ -892,78 +847,6 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>ОбъектыМетаданныхКодУИД</name>
-            <id>62</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ОбъектыМетаданных.КодУИД</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ОбъектыМетаданныхКодУИДРасширеннаяПодсказка</name>
-              <id>64</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбъектыМетаданныхКодУИДКонтекстноеМеню</name>
-              <id>63</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ОбъектыМетаданныхТипУИД</name>
-            <id>65</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ОбъектыМетаданных.ТипУИД</segments>
-            </dataPath>
-            <extendedTooltip>
-              <name>ОбъектыМетаданныхТипУИДРасширеннаяПодсказка</name>
-              <id>67</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОбъектыМетаданныхТипУИДКонтекстноеМеню</name>
-              <id>66</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
             <name>ОбъектыМетаданныхИерархический</name>
             <id>68</id>
             <visible>true</visible>
@@ -1097,6 +980,80 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ОбъектыМетаданныхОсновныеПоляДляСверки</name>
+            <id>183</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОбъектыМетаданных.ОсновныеПоляДляСверки</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ОбъектыМетаданныхОсновныеПоляДляСверкиРасширеннаяПодсказка</name>
+              <id>185</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОбъектыМетаданныхОсновныеПоляДляСверкиКонтекстноеМеню</name>
+              <id>184</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <width>25</width>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ОбъектыМетаданныхДополнительныеПоляДляСверки</name>
+            <id>186</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОбъектыМетаданных.ДополнительныеПоляДляСверки</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ОбъектыМетаданныхДополнительныеПоляДляСверкиРасширеннаяПодсказка</name>
+              <id>188</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОбъектыМетаданныхДополнительныеПоляДляСверкиКонтекстноеМеню</name>
+              <id>187</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <width>25</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
             </extInfo>
@@ -2062,10 +2019,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnLoadDataFromSettingsAtServer</event>
-    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -2190,27 +2143,6 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>НаименованиеПланаОбмена</name>
-    <title>
-      <key>ru</key>
-      <value>План обмена</value>
-    </title>
-    <id>8</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
     <name>Логин</name>
     <title>
       <key>ru</key>
@@ -2275,12 +2207,12 @@
     <name>ПроверитьСинхронизацию</name>
     <title>
       <key>ru</key>
-      <value>Проверить синхронизацию</value>
+      <value>Синхронизировать</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Проверить синхронизацию</value>
+      <value>Синхронизировать</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2359,7 +2291,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Объекты метаданных заполняются по составу плана обмена, указанного в поле.</value>
+      <value>Запрашивает у выбранной базы объекты, которые она выгружает, и добавляет недостающие строки.</value>
     </toolTip>
     <use>
       <common>true</common>
