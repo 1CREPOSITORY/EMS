@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7c4e1a92-6b18-4d55-9e31-2a0f8c6d4b17">
+    <name>ФормаЗаполненияМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

@@ -5,8 +5,8 @@
     <key>ru</key>
     <value>EMS проверка синхронизации</value>
   </synonym>
-  <methodName>CommonModule.EMS_ПроверкаСинхронизации.ВыполнитьСинхронизацию</methodName>
-  <description>EMS проверка синхронизации</description>
+  <methodName>CommonModule.EMS_ПроверкаСинхронизации.ВыполнитьСравнениеИРегистрацию</methodName>
+  <description>Сравнение верхней и нижних баз и регистрация расхождений к обмену</description>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

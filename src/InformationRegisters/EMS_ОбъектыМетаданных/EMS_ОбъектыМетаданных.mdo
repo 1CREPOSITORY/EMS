@@ -83,42 +83,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
   </resources>
-  <resources uuid="9fb96ca2-1aef-4278-a9e9-894d74bfadc0">
-    <name>КодУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код УИД</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
-  <resources uuid="4a958f2c-36be-42da-add2-2c30603ead9f">
-    <name>ТипУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип УИД</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
   <resources uuid="acb95eb1-abd7-4884-9fee-2e15321fec73">
     <name>Иерархический</name>
     <synonym>
