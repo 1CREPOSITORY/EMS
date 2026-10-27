@@ -69,4 +69,5 @@
   <informationRegisters>InformationRegister.EMS_КодСопоставленияОрганизации</informationRegisters>
   <informationRegisters>InformationRegister.EMS_ОбъектыМетаданных</informationRegisters>
   <informationRegisters>InformationRegister.EMS_СообщенияСинхронизации</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</informationRegisters>
 </mdclass:Configuration>
