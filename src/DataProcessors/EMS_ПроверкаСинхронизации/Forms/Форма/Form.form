@@ -393,14 +393,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница сообщения синхронизации</value>
+          <value>Расхождения, найденные при сравнении этой базы с нижними. «Сравнить» предлагает выбрать базу: выбранная сверяется отдельно, пустое поле сравнивает все базы. По строке объект можно зарегистрировать к обмену.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаСообщенияСинхронизацииРасширеннаяПодсказка</name>
           <id>12</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -636,14 +640,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница коды сопоставления организаций</value>
+          <value>Соответствие кода EMS и ГУИД организации. По этому коду при обмене находится организация в текущей базе.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаКодыСопоставленияОрганизацийРасширеннаяПодсказка</name>
           <id>6</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -1250,14 +1258,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница объекты метаданных</value>
+          <value>Объекты, которые сравниваются по каждой базе. Основные поля заменяют ключ. Дополнительные добавляются к автоматическому ключу, только если основные пустые. Уже заполненные поля сверки при копировании на другие базы не затираются.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаОбъектыМетаданныхРасширеннаяПодсказка</name>
           <id>8</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -1319,42 +1331,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ПодсказкаПолейСверки</name>
-            <id>204</id>
-            <title>
-              <key>ru</key>
-              <value>Укажите имена полей через запятую. Это поля, значения которых сравниваются для выбранной базы и типа метаданных. Ключ объекта не меняется. Если настройка отсутствует или пуста, используются стандартные поля сравнения.</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПодсказкаПолейСверкиРасширеннаяПодсказка</name>
-              <id>206</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ПодсказкаПолейСверкиКонтекстноеМеню</name>
-              <id>205</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <autoMaxWidth>false</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>true</horizontalStretch>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-              <verticalAlign>Center</verticalAlign>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1680,14 +1656,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница поля сверки по типам метаданных</value>
+          <value>Поля, значения которых сравниваются после нахождения объекта по ключу. Ключ объекта не меняется. Пустая настройка оставляет стандартный набор полей сравнения.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаПоляСверкиПоТипамРасширеннаяПодсказка</name>
           <id>231</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -2211,14 +2191,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница параметры баз</value>
+          <value>Нижние базы для сверки и обмена: сервер, имя публикации, код организации и наименование узла. В сверку попадают базы, у которых заполнены код организации и наименование узла.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаПараметрыБазРасширеннаяПодсказка</name>
           <id>10</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -2352,14 +2336,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница настройки</value>
+          <value>Логин и пароль HTTP-подключения к нижним базам. Кнопка «Сохранить» записывает их в безопасное хранилище.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаНастройкиРасширеннаяПодсказка</name>
           <id>14</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -2375,6 +2363,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <autoMaxWidth>false</autoMaxWidth>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>Группа2РасширеннаяПодсказка</name>
         <id>4</id>
@@ -2396,6 +2386,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <autoMaxWidth>false</autoMaxWidth>
+    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>2</id>
@@ -2683,7 +2675,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Сравнить</value>
+      <value>Открывает выбор базы. Выбранная база сверяется отдельно. Если базу не выбирать и подтвердить, сверка идёт по всем базам. Отмена сверку не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2725,7 +2717,7 @@
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Получить список объект не найден для базы</value>
+      <value>По базе выделенной строки открывает список сообщений сверки: отсутствующие наверху объекты и остальные расхождения. Данные не изменяет.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2744,6 +2736,10 @@
       <value>Зарегистрировать к обмену</value>
     </title>
     <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>По базе выделенной строки регистрирует на нижней базе объекты из сообщений «объект не найден» и расхождения с отбором. Результат показывается таблицей, обмен не запускается.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -2762,7 +2758,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Запрашивает у выбранной базы объекты, которые она выгружает, и добавляет недостающие строки.</value>
+      <value>Открывает выбор базы. По выбранной базе добавляются недостающие объекты, строки вне состава выгрузки удаляются. Отмена заполнение не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>
