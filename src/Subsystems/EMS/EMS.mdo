@@ -23,5 +23,6 @@
   <content>Catalog.EMS_ПараметрыБаз</content>
   <content>InformationRegister.EMS_ОбъектыМетаданных</content>
   <content>InformationRegister.EMS_СообщенияСинхронизации</content>
+  <content>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</content>
   <content>DataProcessor.EMS_ПроверкаСинхронизации</content>
 </mdclass:Subsystem>
