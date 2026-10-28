@@ -393,14 +393,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница сообщения синхронизации</value>
+          <value>Расхождения, найденные при сравнении этой базы с нижними. «Сравнить» предлагает выбрать базу: выбранная сверяется отдельно, пустое поле сравнивает все базы. По строке объект можно зарегистрировать к обмену.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаСообщенияСинхронизацииРасширеннаяПодсказка</name>
           <id>12</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -636,14 +640,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница коды сопоставления организаций</value>
+          <value>Соответствие кода EMS и ГУИД организации. По этому коду при обмене находится организация в текущей базе.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаКодыСопоставленияОрганизацийРасширеннаяПодсказка</name>
           <id>6</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -1250,14 +1258,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница объекты метаданных</value>
+          <value>Объекты, которые сравниваются по каждой базе. Основные поля заменяют ключ. Дополнительные добавляются к автоматическому ключу, только если основные пустые. Уже заполненные поля сверки при копировании на другие базы не затираются.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаОбъектыМетаданныхРасширеннаяПодсказка</name>
           <id>8</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -1319,42 +1331,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:Decoration">
-            <name>ПодсказкаПолейСверки</name>
-            <id>204</id>
-            <title>
-              <key>ru</key>
-              <value>Укажите имена полей через запятую. Это поля, значения которых сравниваются для выбранной базы и типа метаданных. Ключ объекта не меняется. Если настройка отсутствует или пуста, используются стандартные поля сравнения.</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ПодсказкаПолейСверкиРасширеннаяПодсказка</name>
-              <id>206</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ПодсказкаПолейСверкиКонтекстноеМеню</name>
-              <id>205</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <autoMaxWidth>false</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <horizontalStretch>true</horizontalStretch>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-              <verticalAlign>Center</verticalAlign>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -1680,14 +1656,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница поля сверки по типам метаданных</value>
+          <value>Поля, значения которых сравниваются после нахождения объекта по ключу. Ключ объекта не меняется. Пустая настройка оставляет стандартный набор полей сравнения.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаПоляСверкиПоТипамРасширеннаяПодсказка</name>
           <id>231</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -2211,14 +2191,18 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Страница параметры баз</value>
+          <value>Нижние базы для сверки и обмена: сервер, имя публикации, код организации и наименование узла. В сверку попадают базы, у которых заполнены код организации и наименование узла.</value>
         </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
           <name>СтраницаПараметрыБазРасширеннаяПодсказка</name>
           <id>10</id>
           <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxWidth>false</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -2341,6 +2325,42 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Логин и пароль HTTP-подключения к нижним базам. Кнопка «Сохранить» записывает их в безопасное хранилище.</value>
+        </toolTip>
+        <toolTipRepresentation>ShowTop</toolTipRepresentation>
+        <autoMaxWidth>false</autoMaxWidth>
+        <horizontalStretch>true</horizontalStretch>
+        <extendedTooltip>
+          <name>СтраницаНастройкиРасширеннаяПодсказка</name>
+          <id>14</id>
+          <type>Label</type>
+          <autoMaxWidth>false</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Page</type>
+        <extInfo xsi:type="form:PageGroupExtInfo">
+          <group>Vertical</group>
+          <showTitle>true</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>СтраницаДиагностикаПроизводительности</name>
+        <id>400</id>
         <items xsi:type="form:FormField">
           <name>ДиагностикаПроизводительности</name>
           <id>300</id>
@@ -2380,7 +2400,7 @@
           <id>303</id>
           <title>
             <key>ru</key>
-            <value>При включении во время сверки собирается статистика времени выполнения запросов, HTTP-вызовов и сравнения объектов. Результаты доступны после завершения проверки.</value>
+            <value>При включении во время сверки собирается статистика времени выполнения запросов, HTTP-вызовов и сравнения объектов. Результаты доступны после завершения проверки. Длительность в миллисекундах дополнена секундами в скобках, с округлением вверх до одного знака.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2410,38 +2430,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Настройки</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Страница настройки</value>
-        </toolTip>
-        <extendedTooltip>
-          <name>СтраницаНастройкиРасширеннаяПодсказка</name>
-          <id>14</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Page</type>
-        <extInfo xsi:type="form:PageGroupExtInfo">
-          <group>Vertical</group>
-          <showTitle>true</showTitle>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>СтраницаДиагностикаПроизводительности</name>
-        <id>400</id>
         <items xsi:type="form:FormField">
           <name>СводкаДиагностики</name>
           <id>401</id>
@@ -3481,6 +3469,1247 @@
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <items xsi:type="form:Table">
+          <name>ДиагностикаЧтение</name>
+          <id>800</id>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеБаза</name>
+            <id>810</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.База</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеБазаРасширеннаяПодсказка</name>
+              <id>811</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеБазаКонтекстноеМеню</name>
+              <id>812</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеТип</name>
+            <id>813</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.Тип</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеТипРасширеннаяПодсказка</name>
+              <id>814</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеТипКонтекстноеМеню</name>
+              <id>815</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВид</name>
+            <id>816</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.Вид</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВидРасширеннаяПодсказка</name>
+              <id>817</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВидКонтекстноеМеню</name>
+              <id>818</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВерхняяБазаМс</name>
+            <id>819</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ВерхняяБазаМс</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВерхняяБазаМсРасширеннаяПодсказка</name>
+              <id>820</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВерхняяБазаМсКонтекстноеМеню</name>
+              <id>821</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВыполнениеЗапросаВерхТекст</name>
+            <id>822</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ВыполнениеЗапросаВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВыполнениеЗапросаВерхТекстРасширеннаяПодсказка</name>
+              <id>823</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВыполнениеЗапросаВерхТекстКонтекстноеМеню</name>
+              <id>824</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВыборкаВерхТекст</name>
+            <id>825</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ВыборкаВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВыборкаВерхТекстРасширеннаяПодсказка</name>
+              <id>826</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВыборкаВерхТекстКонтекстноеМеню</name>
+              <id>827</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеОбходПреобразованиеВерхТекст</name>
+            <id>828</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ОбходПреобразованиеВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеОбходПреобразованиеВерхТекстРасширеннаяПодсказка</name>
+              <id>829</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеОбходПреобразованиеВерхТекстКонтекстноеМеню</name>
+              <id>830</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеПрочееЧтениеВерхТекст</name>
+            <id>831</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ПрочееЧтениеВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеПрочееЧтениеВерхТекстРасширеннаяПодсказка</name>
+              <id>832</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеПрочееЧтениеВерхТекстКонтекстноеМеню</name>
+              <id>833</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВыполнениеЗапросаНизТекст</name>
+            <id>834</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ВыполнениеЗапросаНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВыполнениеЗапросаНизТекстРасширеннаяПодсказка</name>
+              <id>835</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВыполнениеЗапросаНизТекстКонтекстноеМеню</name>
+              <id>836</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеВыборкаНизТекст</name>
+            <id>837</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ВыборкаНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеВыборкаНизТекстРасширеннаяПодсказка</name>
+              <id>838</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеВыборкаНизТекстКонтекстноеМеню</name>
+              <id>839</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеОбходПреобразованиеНизТекст</name>
+            <id>840</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ОбходПреобразованиеНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеОбходПреобразованиеНизТекстРасширеннаяПодсказка</name>
+              <id>841</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеОбходПреобразованиеНизТекстКонтекстноеМеню</name>
+              <id>842</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСинтезТиповНизТекст</name>
+            <id>843</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СинтезТиповНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСинтезТиповНизТекстРасширеннаяПодсказка</name>
+              <id>844</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСинтезТиповНизТекстКонтекстноеМеню</name>
+              <id>845</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеПрочееНижняяТекст</name>
+            <id>846</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ПрочееНижняяТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеПрочееНижняяТекстРасширеннаяПодсказка</name>
+              <id>847</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеПрочееНижняяТекстКонтекстноеМеню</name>
+              <id>848</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеНижняяБазаТекст</name>
+            <id>849</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.НижняяБазаТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеНижняяБазаТекстРасширеннаяПодсказка</name>
+              <id>850</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеНижняяБазаТекстКонтекстноеМеню</name>
+              <id>851</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеПостроениеКлючейТекст</name>
+            <id>852</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ПостроениеКлючейТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеПостроениеКлючейТекстРасширеннаяПодсказка</name>
+              <id>853</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеПостроениеКлючейТекстКонтекстноеМеню</name>
+              <id>854</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСравнениеКлючейТекст</name>
+            <id>855</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СравнениеКлючейТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСравнениеКлючейТекстРасширеннаяПодсказка</name>
+              <id>856</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСравнениеКлючейТекстКонтекстноеМеню</name>
+              <id>857</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеДиагностикаКлючейТекст</name>
+            <id>858</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ДиагностикаКлючейТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеДиагностикаКлючейТекстРасширеннаяПодсказка</name>
+              <id>859</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеДиагностикаКлючейТекстКонтекстноеМеню</name>
+              <id>860</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеПрочееСравнениеТекст</name>
+            <id>861</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.ПрочееСравнениеТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеПрочееСравнениеТекстРасширеннаяПодсказка</name>
+              <id>862</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеПрочееСравнениеТекстКонтекстноеМеню</name>
+              <id>863</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСравнениеМс</name>
+            <id>864</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СравнениеМс</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСравнениеМсРасширеннаяПодсказка</name>
+              <id>865</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСравнениеМсКонтекстноеМеню</name>
+              <id>866</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСтрокСверху</name>
+            <id>867</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СтрокСверху</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСтрокСверхуРасширеннаяПодсказка</name>
+              <id>868</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСтрокСверхуКонтекстноеМеню</name>
+              <id>869</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСтрокСнизу</name>
+            <id>870</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СтрокСнизу</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСтрокСнизуРасширеннаяПодсказка</name>
+              <id>871</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСтрокСнизуКонтекстноеМеню</name>
+              <id>872</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеКлючейСверхуТекст</name>
+            <id>873</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.КлючейСверхуТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеКлючейСверхуТекстРасширеннаяПодсказка</name>
+              <id>874</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеКлючейСверхуТекстКонтекстноеМеню</name>
+              <id>875</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеКлючейСнизуТекст</name>
+            <id>876</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.КлючейСнизуТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеКлючейСнизуТекстРасширеннаяПодсказка</name>
+              <id>877</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеКлючейСнизуТекстКонтекстноеМеню</name>
+              <id>878</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСовпадающихКлючейТекст</name>
+            <id>879</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СовпадающихКлючейТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСовпадающихКлючейТекстРасширеннаяПодсказка</name>
+              <id>880</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСовпадающихКлючейТекстКонтекстноеМеню</name>
+              <id>881</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСтрокВерхСовпалоТекст</name>
+            <id>882</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СтрокВерхСовпалоТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСтрокВерхСовпалоТекстРасширеннаяПодсказка</name>
+              <id>883</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСтрокВерхСовпалоТекстКонтекстноеМеню</name>
+              <id>884</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеМаксСтрокКлючВерхТекст</name>
+            <id>885</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.МаксСтрокКлючВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеМаксСтрокКлючВерхТекстРасширеннаяПодсказка</name>
+              <id>886</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеМаксСтрокКлючВерхТекстКонтекстноеМеню</name>
+              <id>887</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСреднееСтрокКлючВерхТекст</name>
+            <id>888</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СреднееСтрокКлючВерхТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСреднееСтрокКлючВерхТекстРасширеннаяПодсказка</name>
+              <id>889</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСреднееСтрокКлючВерхТекстКонтекстноеМеню</name>
+              <id>890</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеМаксСтрокКлючНизТекст</name>
+            <id>891</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.МаксСтрокКлючНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеМаксСтрокКлючНизТекстРасширеннаяПодсказка</name>
+              <id>892</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеМаксСтрокКлючНизТекстКонтекстноеМеню</name>
+              <id>893</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДиагностикаЧтениеСреднееСтрокКлючНизТекст</name>
+            <id>894</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДиагностикаЧтение.СреднееСтрокКлючНизТекст</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДиагностикаЧтениеСреднееСтрокКлючНизТекстРасширеннаяПодсказка</name>
+              <id>895</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДиагностикаЧтениеСреднееСтрокКлючНизТекстКонтекстноеМеню</name>
+              <id>896</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <readOnly>true</readOnly>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <autoCommandBar>
+            <name>ДиагностикаЧтениеКоманднаяПанель</name>
+            <id>801</id>
+            <horizontalAlign>Left</horizontalAlign>
+            <autoFill>true</autoFill>
+          </autoCommandBar>
+          <extendedTooltip>
+            <name>ДиагностикаЧтениеРасширеннаяПодсказка</name>
+            <id>802</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДиагностикаЧтениеКонтекстноеМеню</name>
+            <id>803</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <changeRowSet>false</changeRowSet>
+          <changeRowOrder>false</changeRowOrder>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>8</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <autoMaxRowsCount>true</autoMaxRowsCount>
+          <selectionMode>MultiRow</selectionMode>
+          <header>true</header>
+          <headerHeight>1</headerHeight>
+          <footerHeight>1</footerHeight>
+          <horizontalScrollBar>AutoUse</horizontalScrollBar>
+          <verticalScrollBar>AutoUse</verticalScrollBar>
+          <horizontalLines>true</horizontalLines>
+          <verticalLines>true</verticalLines>
+          <searchOnInput>Auto</searchOnInput>
+          <initialListView>Auto</initialListView>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+          <enableStartDrag>true</enableStartDrag>
+          <enableDrag>true</enableDrag>
+          <fileDragMode>AsFileRef</fileDragMode>
+          <rowFilter xsi:type="core:UndefinedValue"/>
+          <title>
+            <key>ru</key>
+            <value>Детализация чтения и ключей</value>
+          </title>
+          <titleLocation>Top</titleLocation>
+        </items>
+        <items xsi:type="form:Table">
           <name>ДиагностикаПакеты</name>
           <id>700</id>
           <items xsi:type="form:FormField">
@@ -3819,7 +5048,7 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Показатели последнего запуска с включённой диагностикой. Время HTTP-пакета не делится между объектами и показано во второй таблице. Сортировка объектов по умолчанию — от самых долгих.</value>
+          <value>Показатели последнего запуска с включённой диагностикой. Вторая таблица разделяет чтение на выполнение запроса, выборку и обход с преобразованием. «не измерено» означает, что этап не выполнялся или нижняя база не вернула новый показатель. Время HTTP-пакета не делится между объектами.</value>
         </toolTip>
         <toolTipRepresentation>ShowTop</toolTipRepresentation>
         <extendedTooltip>
@@ -3844,6 +5073,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <autoMaxWidth>false</autoMaxWidth>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>Группа2РасширеннаяПодсказка</name>
         <id>4</id>
@@ -3865,6 +5096,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <autoMaxWidth>false</autoMaxWidth>
+    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>2</id>
@@ -4244,11 +5477,10 @@
       </title>
       <id>4</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4265,11 +5497,10 @@
       </title>
       <id>5</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4286,11 +5517,10 @@
       </title>
       <id>6</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4307,11 +5537,10 @@
       </title>
       <id>7</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4328,11 +5557,10 @@
       </title>
       <id>8</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4473,11 +5701,10 @@
       </title>
       <id>15</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4514,11 +5741,10 @@
       </title>
       <id>17</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4556,11 +5782,10 @@
       </title>
       <id>19</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4737,11 +5962,10 @@
       </title>
       <id>4</id>
       <valueType>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -4808,6 +6032,605 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ДиагностикаЧтение</name>
+    <title>
+      <key>ru</key>
+      <value>Детализация чтения и ключей</value>
+    </title>
+    <id>790</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>База</name>
+      <title>
+        <key>ru</key>
+        <value>База</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Тип</name>
+      <title>
+        <key>ru</key>
+        <value>Вид метаданных</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Вид</name>
+      <title>
+        <key>ru</key>
+        <value>Объект метаданных</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВерхняяБазаМс</name>
+      <title>
+        <key>ru</key>
+        <value>Верхняя база, мс</value>
+      </title>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВыполнениеЗапросаВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Выполнение запроса верхней, мс</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВыборкаВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Выборка верхней, мс</value>
+      </title>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОбходПреобразованиеВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Обход и преобразование верхней, мс</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПрочееЧтениеВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Прочее чтение верхней, мс</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВыполнениеЗапросаНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Выполнение запроса нижней, мс</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ВыборкаНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Выборка нижней, мс</value>
+      </title>
+      <id>10</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОбходПреобразованиеНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Обход и преобразование нижней, мс</value>
+      </title>
+      <id>11</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СинтезТиповНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Синтез типов нижней, мс</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПрочееНижняяТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Прочее нижней, мс</value>
+      </title>
+      <id>13</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НижняяБазаТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Нижняя база всего, мс</value>
+      </title>
+      <id>14</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПостроениеКлючейТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Построение ключей, мс</value>
+      </title>
+      <id>15</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СравнениеКлючейТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Сравнение ключей, мс</value>
+      </title>
+      <id>16</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДиагностикаКлючейТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Сбор показателей ключей, мс</value>
+      </title>
+      <id>17</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПрочееСравнениеТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Прочее сравнение, мс</value>
+      </title>
+      <id>18</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СравнениеМс</name>
+      <title>
+        <key>ru</key>
+        <value>Сравнение всего, мс</value>
+      </title>
+      <id>19</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокСверху</name>
+      <title>
+        <key>ru</key>
+        <value>Строк сверху</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокСнизу</name>
+      <title>
+        <key>ru</key>
+        <value>Строк снизу</value>
+      </title>
+      <id>21</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КлючейСверхуТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Уникальных ключей сверху</value>
+      </title>
+      <id>22</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КлючейСнизуТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Уникальных ключей снизу</value>
+      </title>
+      <id>23</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СовпадающихКлючейТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Совпадающих ключей</value>
+      </title>
+      <id>24</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокВерхСовпалоТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Строк верхней по совпадающим ключам</value>
+      </title>
+      <id>25</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>МаксСтрокКлючВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Макс. строк на ключ сверху</value>
+      </title>
+      <id>26</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СреднееСтрокКлючВерхТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Среднее строк на ключ сверху</value>
+      </title>
+      <id>27</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>МаксСтрокКлючНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Макс. строк на ключ снизу</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СреднееСтрокКлючНизТекст</name>
+      <title>
+        <key>ru</key>
+        <value>Среднее строк на ключ снизу</value>
+      </title>
+      <id>29</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>Сохранить</name>
     <title>
@@ -4838,7 +6661,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Сравнить</value>
+      <value>Открывает выбор базы. Выбранная база сверяется отдельно. Если базу не выбирать и подтвердить, сверка идёт по всем базам. Отмена сверку не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -4880,7 +6703,7 @@
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Получить список объект не найден для базы</value>
+      <value>По базе выделенной строки открывает список сообщений сверки: отсутствующие наверху объекты и остальные расхождения. Данные не изменяет.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -4899,6 +6722,10 @@
       <value>Зарегистрировать к обмену</value>
     </title>
     <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>По базе выделенной строки регистрирует на нижней базе объекты из сообщений «объект не найден» и расхождения с отбором. Результат показывается таблицей, обмен не запускается.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4917,7 +6744,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Запрашивает у выбранной базы объекты, которые она выгружает, и добавляет недостающие строки.</value>
+      <value>Открывает выбор базы. По выбранной базе добавляются недостающие объекты, строки вне состава выгрузки удаляются. Отмена заполнение не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>
