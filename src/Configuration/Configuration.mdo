@@ -57,6 +57,7 @@
   <scheduledJobs>ScheduledJob.EMS_ПроверкаСинхронизации</scheduledJobs>
   <scheduledJobs>ScheduledJob.EMS_АктуализацияДанныхПослеСинхронизации</scheduledJobs>
   <catalogs>Catalog.EMS_ПараметрыБаз</catalogs>
+  <enums>Enum.EMS_ИсточникиЗапускаСинхронизации</enums>
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовОбмена</dataProcessors>
   <dataProcessors>DataProcessor.ПоискОбъектНеНайден</dataProcessors>

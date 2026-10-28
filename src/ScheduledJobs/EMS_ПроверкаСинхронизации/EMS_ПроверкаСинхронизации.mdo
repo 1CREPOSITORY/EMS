@@ -8,6 +8,7 @@
   <methodName>CommonModule.EMS_ПроверкаСинхронизации.ВыполнитьСравнениеИРегистрацию</methodName>
   <description>Сравнение верхней и нижних баз и регистрация расхождений к обмену</description>
   <use>true</use>
+  <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>
