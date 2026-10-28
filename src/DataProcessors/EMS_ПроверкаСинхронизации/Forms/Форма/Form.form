@@ -9,6 +9,58 @@
       <items xsi:type="form:FormGroup">
         <name>СтраницаСообщенияСинхронизации</name>
         <id>11</id>
+        <items xsi:type="form:FormField">
+          <name>ИсточникЗапускаОтбор</name>
+          <id>920</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИсточникЗапускаОтбор</segments>
+          </dataPath>
+          <titleLocation>Left</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Пустое значение показывает сообщения ручного запуска и регламентного задания. Выбранное значение оставляет сообщения одного источника.</value>
+          </toolTip>
+          <handlers>
+            <event>OnChange</event>
+            <name>ИсточникЗапускаОтборПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИсточникЗапускаОтборРасширеннаяПодсказка</name>
+            <id>922</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИсточникЗапускаОтборКонтекстноеМеню</name>
+            <id>921</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <width>28</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>false</horizontalStretch>
+            <wrap>true</wrap>
+            <clearButton>true</clearButton>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
         <items xsi:type="form:Table">
           <name>СообщенияСинхронизации</name>
           <id>123</id>
@@ -189,6 +241,42 @@
             <contextMenu>
               <name>СообщенияСинхронизацииПериодКонтекстноеМеню</name>
               <id>149</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>СообщенияСинхронизацииИсточникЗапуска</name>
+            <id>930</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СообщенияСинхронизации.ИсточникЗапуска</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СообщенияСинхронизацииИсточникЗапускаРасширеннаяПодсказка</name>
+              <id>932</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СообщенияСинхронизацииИсточникЗапускаКонтекстноеМеню</name>
+              <id>931</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>LabelField</type>
@@ -393,7 +481,7 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Расхождения, найденные при сравнении этой базы с нижними. «Сравнить» предлагает выбрать базу: выбранная сверяется отдельно, пустое поле сравнивает все базы. По строке объект можно зарегистрировать к обмену.</value>
+          <value>Расхождения, найденные при сравнении этой базы с нижними. Показаны сообщения ручного запуска и регламентного задания. Поле «Источник запуска» оставляет один источник. «Сравнить» предлагает выбрать базу: выбранная сверяется отдельно, пустое поле сравнивает все базы. По строке объект можно зарегистрировать к обмену.</value>
         </toolTip>
         <toolTipRepresentation>ShowTop</toolTipRepresentation>
         <autoMaxWidth>false</autoMaxWidth>
@@ -5439,6 +5527,23 @@
     </edit>
   </attributes>
   <attributes>
+    <name>ИсточникЗапускаОтбор</name>
+    <title>
+      <key>ru</key>
+      <value>Источник запуска</value>
+    </title>
+    <id>791</id>
+    <valueType>
+      <types>EnumRef.EMS_ИсточникиЗапускаСинхронизации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>Логин</name>
     <title>
       <key>ru</key>
@@ -6908,7 +7013,7 @@
     <id>5</id>
     <toolTip>
       <key>ru</key>
-      <value>По базе выделенной строки регистрирует на нижней базе объекты из сообщений «объект не найден» и расхождения с отбором. Результат показывается таблицей, обмен не запускается.</value>
+      <value>По базе и источнику запуска выделенной строки регистрирует на нижней базе объекты из сообщений «объект не найден» и расхождения с отбором. Сообщения другого источника не используются. Результат показывается таблицей, обмен не запускается.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6928,7 +7033,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Открывает выбор базы. По выбранной базе добавляются недостающие объекты, строки вне состава выгрузки удаляются. Отмена заполнение не запускает.</value>
+      <value>Открывает выбор базы. Выбранная база заполняется отдельно. Если базу не выбирать и подтвердить, заполнение идёт по всем базам. Отмена заполнение не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>

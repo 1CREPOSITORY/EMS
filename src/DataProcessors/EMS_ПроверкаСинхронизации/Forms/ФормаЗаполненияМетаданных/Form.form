@@ -41,6 +41,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <wrap>true</wrap>
+      <clearButton>true</clearButton>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
@@ -178,7 +179,7 @@
   <autoTitle>false</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <autoFillCheck>true</autoFillCheck>
+  <autoFillCheck>false</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
@@ -193,6 +194,7 @@
     <valueType>
       <types>CatalogRef.EMS_ПараметрыБаз</types>
     </valueType>
+    <fillChecking>DontCheck</fillChecking>
     <view>
       <common>true</common>
     </view>
@@ -251,6 +253,16 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>РазрешитьПустуюБазу</name>
+    <title>
+      <key>ru</key>
+      <value>Разрешить пустую базу</value>
+    </title>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
