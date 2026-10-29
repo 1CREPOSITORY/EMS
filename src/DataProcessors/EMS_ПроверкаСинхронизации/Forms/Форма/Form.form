@@ -753,6 +753,57 @@
       <items xsi:type="form:FormGroup">
         <name>СтраницаОбъектыМетаданных</name>
         <id>7</id>
+        <items xsi:type="form:FormField">
+          <name>ИсточникЗапускаОбъектов</name>
+          <id>940</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИсточникЗапускаОбъектов</segments>
+          </dataPath>
+          <titleLocation>Left</titleLocation>
+          <toolTip>
+            <key>ru</key>
+            <value>Показывает объекты выбранного источника. «Заполнить метаданные» записывает строки этого источника и не изменяет другой.</value>
+          </toolTip>
+          <handlers>
+            <event>OnChange</event>
+            <name>ИсточникЗапускаОбъектовПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИсточникЗапускаОбъектовРасширеннаяПодсказка</name>
+            <id>942</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИсточникЗапускаОбъектовКонтекстноеМеню</name>
+            <id>941</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <width>28</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>false</horizontalStretch>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
         <items xsi:type="form:Table">
           <name>ОбъектыМетаданных</name>
           <id>34</id>
@@ -765,6 +816,42 @@
             <segments>ОбъектыМетаданных</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <items xsi:type="form:FormField">
+            <name>ОбъектыМетаданныхИсточникЗапуска</name>
+            <id>950</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОбъектыМетаданных.ИсточникЗапуска</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ОбъектыМетаданныхИсточникЗапускаРасширеннаяПодсказка</name>
+              <id>952</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОбъектыМетаданныхИсточникЗапускаКонтекстноеМеню</name>
+              <id>951</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
           <items xsi:type="form:FormField">
             <name>ОбъектыМетаданныхОбъектМетаданных</name>
             <id>47</id>
@@ -1346,7 +1433,7 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Объекты, которые сравниваются по каждой базе. Основные поля заменяют ключ. Дополнительные добавляются к автоматическому ключу, только если основные пустые. Уже заполненные поля сверки при копировании на другие базы не затираются.</value>
+          <value>Объекты, которые сравниваются по каждой базе и источнику запуска. По умолчанию показан ручной запуск. «Сравнить» берёт только его строки, регламентное задание — только свои. Заполнение и копирование не изменяют другой источник. Основные поля заменяют ключ. Дополнительные добавляются к автоматическому ключу, только если основные пустые.</value>
         </toolTip>
         <toolTipRepresentation>ShowTop</toolTipRepresentation>
         <autoMaxWidth>false</autoMaxWidth>
@@ -5527,6 +5614,23 @@
     </edit>
   </attributes>
   <attributes>
+    <name>ИсточникЗапускаОбъектов</name>
+    <title>
+      <key>ru</key>
+      <value>Источник запуска</value>
+    </title>
+    <id>792</id>
+    <valueType>
+      <types>EnumRef.EMS_ИсточникиЗапускаСинхронизации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>ИсточникЗапускаОтбор</name>
     <title>
       <key>ru</key>
@@ -6950,7 +7054,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Открывает выбор базы. Выбранная база сверяется отдельно. Если базу не выбирать и подтвердить, сверка идёт по всем базам. Отмена сверку не запускает.</value>
+      <value>Открывает выбор базы. Сверяются только объекты с источником «Ручной запуск». Выбранная база сверяется отдельно. Если базу не выбирать и подтвердить, сверка идёт по всем базам. Отмена сверку не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6971,7 +7075,7 @@
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Копировать строку для всех баз</value>
+      <value>Копирует выбранную строку на все актуальные базы в том же источнике запуска. Строки другого источника не изменяются.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -7033,7 +7137,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Открывает выбор базы. Выбранная база заполняется отдельно. Если базу не выбирать и подтвердить, заполнение идёт по всем базам. Отмена заполнение не запускает.</value>
+      <value>Открывает выбор базы. Заполняется источник, выбранный на вкладке. Выбранная база заполняется отдельно. Если базу не выбирать и подтвердить, заполнение идёт по всем базам. Строки другого источника не изменяются. Отмена заполнение не запускает.</value>
     </toolTip>
     <use>
       <common>true</common>

@@ -243,4 +243,20 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="b8c4d1e2-6f37-4a90-9c15-2e7a8b3d4f50">
+    <name>ИсточникЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник запуска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EMS_ИсточникиЗапускаСинхронизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
