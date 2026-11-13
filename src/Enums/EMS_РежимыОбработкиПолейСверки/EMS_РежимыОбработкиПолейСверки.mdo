@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bffe563b-0097-4fd3-a322-7622b22a2fff">
+  <producedTypes>
+    <refType typeId="6ff1c571-f5a0-48d4-b303-0a48e5d035f4" valueTypeId="233a0326-155c-4248-80bc-a7a5c34f8493"/>
+    <listType typeId="48f5f501-1d94-421a-a7f1-6ce837e7b9b1" valueTypeId="4e5f55ec-28ec-430b-9010-582b9102d9c7"/>
+    <managerType typeId="46c3d4d7-4160-4fa2-98f9-296049dc93d2" valueTypeId="857937d7-a08c-4c5e-9ba1-e804c6687823"/>
+  </producedTypes>
+  <name>EMS_РежимыОбработкиПолейСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы обработки полей сверки (EMS)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34ec9cd2-e7ac-4704-8a50-437c768dfaba">
+    <name>ПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По умолчанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fa25bfc-db26-49dc-8229-674c8d5e8685">
+    <name>Проверять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d04ec1d8-79c8-4bbf-912a-e476644bf87e">
+    <name>Исключить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96b7e8fb-e55b-44f5-9c96-ba8daecf4a83">
+    <name>Нормализовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормализовать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

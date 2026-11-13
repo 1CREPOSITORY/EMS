@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16134ec9-8b8a-42eb-91a8-fa2cdc3cafaf">
+  <producedTypes>
+    <selectionType typeId="f7aa07de-b41f-4bc8-b0bf-43e751a1012c" valueTypeId="63faf52e-5720-4f7c-a322-c357d24b7851"/>
+    <listType typeId="f2fb2057-6a8b-4479-b31f-7f206a9e1bd3" valueTypeId="2bc931b7-9d6c-4b90-8030-434e2bbd0639"/>
+    <managerType typeId="0485dfe4-8b36-4ab9-b253-4be138b186bb" valueTypeId="7b69b129-e8fa-43bd-8dc9-bf3dddbdbcee"/>
+    <recordSetType typeId="5d312f0d-ed2a-4b3d-8624-8358cf8ceaa9" valueTypeId="cfc993b4-0866-4862-bbca-65d96b03dc48"/>
+    <recordKeyType typeId="46155ee5-8ea3-471c-8ae7-edc59f10bf8e" valueTypeId="e0cc5c9f-687b-4bb7-a7a4-54d90e9d83c9"/>
+    <recordType typeId="9c17e2e1-13ae-4c4d-8f4a-a40add464d1a" valueTypeId="1e51e528-6aaa-48f9-b5c7-9be3b4e48203"/>
+    <recordManagerType typeId="9e242b0b-49b2-4312-b7de-12d5e0dd300c" valueTypeId="cb63af62-1b14-4b1c-a45b-56003f68fa99"/>
+  </producedTypes>
+  <name>EMS_ПравилаОбработкиПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила обработки полей (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InList</editType>
+  <informationRegisterPeriodicity>Nonperiodical</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="144bcc3a-9d1b-4852-acda-001cd5f9fa23">
+    <name>Режим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EMS_РежимыОбработкиПолейСверки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b76a25f4-460c-4004-a5c9-7e14ca07b2ea">
+    <name>ИдентификаторАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор зарегистрированного алгоритма. Заполняется только для режима «Нормализовать».</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="283541bc-7701-43c7-8a0f-946664d7d7ef">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ddb24b88-5ae9-4743-b1d3-0f7f6acb563b">
+    <name>ПараметрыБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры базы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.EMS_ПараметрыБаз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e06df014-71c7-4b1a-a23a-02a284a70021">
+    <name>ТипМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2a1fb42c-36f3-4c37-b0fb-b7240cc19703">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя объекта метаданных. Пустое значение задаёт правило на весь тип.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dc7199b3-6d09-4edb-af60-6efa2c334c72">
+    <name>ИмяПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

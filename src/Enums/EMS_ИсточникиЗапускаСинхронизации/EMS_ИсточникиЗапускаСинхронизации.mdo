@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c4e8a21-9b17-4d5f-a3c8-1e7f2b9d04a6">
+  <producedTypes>
+    <refType typeId="7d5f9b32-0c28-4e60-b4d9-2f803cae15b7" valueTypeId="8e60ac43-1d39-4f71-c5ea-30914dbf26c8"/>
+    <listType typeId="9f71bd54-2e4a-4082-d6fb-41a25ec037d9" valueTypeId="a082ce65-3f5b-4193-e70c-52b36fd148ea"/>
+    <managerType typeId="b193df76-406c-42a4-f81d-63c470e259fb" valueTypeId="c2a4e087-517d-43b5-a92e-74d581f36a0c"/>
+  </producedTypes>
+  <name>EMS_ИсточникиЗапускаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники запуска синхронизации (EMS)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3b5f198-628e-44c6-ba3f-85e692047b1d">
+    <name>РучнойЗапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной запуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4c602a9-739f-45d7-cb40-96f7a3158c2e">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

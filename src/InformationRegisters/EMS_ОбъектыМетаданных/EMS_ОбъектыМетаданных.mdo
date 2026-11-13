@@ -83,42 +83,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
   </resources>
-  <resources uuid="9fb96ca2-1aef-4278-a9e9-894d74bfadc0">
-    <name>КодУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код УИД</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
-  <resources uuid="4a958f2c-36be-42da-add2-2c30603ead9f">
-    <name>ТипУИД</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип УИД</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-  </resources>
   <resources uuid="acb95eb1-abd7-4884-9fee-2e15321fec73">
     <name>Иерархический</name>
     <synonym>
@@ -197,7 +161,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Список полей, которые полностью заменяют стандартный ключ сверки. Если заполнено, сверка выполняется только по этим полям.</value>
+      <value>Список полей, которые полностью заменяют ключ сверки этого объекта. Если заполнено, дополнительные поля не используются. Настройка по типу метаданных задаёт сравниваемые поля и ключ не меняет.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -217,7 +181,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Список полей, которые добавляются к стандартному ключу сверки. Используется только если основные поля для сверки не заполнены.</value>
+      <value>Список полей, которые добавляются к автоматическому ключу. Используется только если основные поля этого объекта не заполнены.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -271,6 +235,22 @@
     </synonym>
     <type>
       <types>CatalogRef.EMS_ПараметрыБаз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b8c4d1e2-6f37-4a90-9c15-2e7a8b3d4f50">
+    <name>ИсточникЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник запуска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EMS_ИсточникиЗапускаСинхронизации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

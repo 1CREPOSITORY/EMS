@@ -30,7 +30,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.EMS_ОсновнаяРоль</defaultRoles>
-  <version>26_09_09_v3</version>
+  <version>2026.11.13</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="30354782-b3e3-449a-9eac-4b2a35a984e3">
@@ -46,7 +46,10 @@
   <roles>Role.EMS_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ОбменДаннымиПереопределяемый</commonModules>
   <commonModules>CommonModule.ЦТ_ОбщегоНазначенияНаСервере</commonModules>
+  <commonModules>CommonModule.СинхронизацияДанныхЗарплатаКадрыСервер</commonModules>
   <commonModules>CommonModule.EMS_ПроверкаСинхронизации</commonModules>
+  <commonModules>CommonModule.EMS_АдаптерыСверки</commonModules>
+  <commonModules>CommonModule.EMS_АдаптерЗУП</commonModules>
   <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
   <commonModules>CommonModule.EMS_Express</commonModules>
   <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
@@ -56,6 +59,8 @@
   <scheduledJobs>ScheduledJob.EMS_ПроверкаСинхронизации</scheduledJobs>
   <scheduledJobs>ScheduledJob.EMS_АктуализацияДанныхПослеСинхронизации</scheduledJobs>
   <catalogs>Catalog.EMS_ПараметрыБаз</catalogs>
+  <enums>Enum.EMS_ИсточникиЗапускаСинхронизации</enums>
+  <enums>Enum.EMS_РежимыОбработкиПолейСверки</enums>
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовОбмена</dataProcessors>
   <dataProcessors>DataProcessor.ПоискОбъектНеНайден</dataProcessors>
@@ -68,4 +73,6 @@
   <informationRegisters>InformationRegister.EMS_КодСопоставленияОрганизации</informationRegisters>
   <informationRegisters>InformationRegister.EMS_ОбъектыМетаданных</informationRegisters>
   <informationRegisters>InformationRegister.EMS_СообщенияСинхронизации</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_ПравилаОбработкиПолей</informationRegisters>
 </mdclass:Configuration>
