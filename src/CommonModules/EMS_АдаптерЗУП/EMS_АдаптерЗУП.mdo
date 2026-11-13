@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a24618c8-0f75-4190-9c98-c71b70d94a04">
+  <name>EMS_АдаптерЗУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS адаптер ЗУП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

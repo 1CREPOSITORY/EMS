@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2c3aecd-4b8b-454c-b7ac-08c4eb6bf555">
+  <name>EMS_АдаптерыСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS адаптеры сверки</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
