@@ -48,6 +48,8 @@
   <commonModules>CommonModule.ЦТ_ОбщегоНазначенияНаСервере</commonModules>
   <commonModules>CommonModule.СинхронизацияДанныхЗарплатаКадрыСервер</commonModules>
   <commonModules>CommonModule.EMS_ПроверкаСинхронизации</commonModules>
+  <commonModules>CommonModule.EMS_АдаптерыСверки</commonModules>
+  <commonModules>CommonModule.EMS_АдаптерЗУП</commonModules>
   <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
   <commonModules>CommonModule.EMS_Express</commonModules>
   <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
@@ -58,6 +60,7 @@
   <scheduledJobs>ScheduledJob.EMS_АктуализацияДанныхПослеСинхронизации</scheduledJobs>
   <catalogs>Catalog.EMS_ПараметрыБаз</catalogs>
   <enums>Enum.EMS_ИсточникиЗапускаСинхронизации</enums>
+  <enums>Enum.EMS_РежимыОбработкиПолейСверки</enums>
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовОбмена</dataProcessors>
   <dataProcessors>DataProcessor.ПоискОбъектНеНайден</dataProcessors>
@@ -71,4 +74,5 @@
   <informationRegisters>InformationRegister.EMS_ОбъектыМетаданных</informationRegisters>
   <informationRegisters>InformationRegister.EMS_СообщенияСинхронизации</informationRegisters>
   <informationRegisters>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_ПравилаОбработкиПолей</informationRegisters>
 </mdclass:Configuration>

@@ -25,5 +25,9 @@
   <content>InformationRegister.EMS_СообщенияСинхронизации</content>
   <content>Enum.EMS_ИсточникиЗапускаСинхронизации</content>
   <content>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</content>
+  <content>InformationRegister.EMS_ПравилаОбработкиПолей</content>
+  <content>Enum.EMS_РежимыОбработкиПолейСверки</content>
+  <content>CommonModule.EMS_АдаптерыСверки</content>
+  <content>CommonModule.EMS_АдаптерЗУП</content>
   <content>DataProcessor.EMS_ПроверкаСинхронизации</content>
 </mdclass:Subsystem>
