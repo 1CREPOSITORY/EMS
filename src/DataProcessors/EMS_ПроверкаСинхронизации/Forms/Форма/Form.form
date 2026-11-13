@@ -1298,6 +1298,35 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>ЗаполнитьМетаданныеПоБазам</name>
+              <id>960</id>
+              <title>
+                <key>ru</key>
+                <value>Заполнить метаданные по базам</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОбъектыМетаданныхЗаполнитьМетаданныеПоБазамРасширеннаяПодсказка</name>
+                <id>961</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьМетаданныеПоБазам</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
@@ -7147,6 +7176,27 @@
         <name>ЗаполнитьМетаданные</name>
       </handler>
     </action>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьМетаданныеПоБазам</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить метаданные по базам</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открывает выбор источника запуска и баз. Добавляет зашитые зарплатные документы. Уже существующие строки не изменяются.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьМетаданныеПоБазам</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ЗаполнитьНачальныеЗначенияПолейСверки</name>
