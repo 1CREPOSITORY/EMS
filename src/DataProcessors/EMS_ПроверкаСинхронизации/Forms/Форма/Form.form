@@ -433,8 +433,41 @@
           <contextMenu>
             <name>СообщенияСинхронизацииКонтекстноеМеню</name>
             <id>124</id>
+            <items xsi:type="form:Button">
+              <name>СообщенияСинхронизацииКонтекстноеМенюОткрытьСообщение</name>
+              <id>1300</id>
+              <title>
+                <key>ru</key>
+                <value>Открыть сообщение синхронизации</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СообщенияСинхронизацииКонтекстноеМенюОткрытьСообщениеРасширеннаяПодсказка</name>
+                <id>1301</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОткрытьСообщениеСинхронизации</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <autoFill>true</autoFill>
           </contextMenu>
+          <handlers>
+            <event>Selection</event>
+            <name>СообщенияСинхронизацииВыбор</name>
+          </handlers>
           <representation>HierarchicalList</representation>
           <changeRowSet>true</changeRowSet>
           <changeRowOrder>true</changeRowOrder>
@@ -9138,6 +9171,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОтменитьПравилоОбработки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСообщениеСинхронизации</name>
+    <title>
+      <key>ru</key>
+      <value>Открыть сообщение синхронизации</value>
+    </title>
+    <id>14</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открывает запись регистра сообщений синхронизации, даже если объект расхождения есть в этой базе.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСообщениеСинхронизации</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
