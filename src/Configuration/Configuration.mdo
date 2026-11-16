@@ -75,4 +75,5 @@
   <informationRegisters>InformationRegister.EMS_СообщенияСинхронизации</informationRegisters>
   <informationRegisters>InformationRegister.EMS_ПоляСверкиПоТипамМетаданных</informationRegisters>
   <informationRegisters>InformationRegister.EMS_ПравилаОбработкиПолей</informationRegisters>
+  <informationRegisters>InformationRegister.EMS_НаборыМетаданных</informationRegisters>
 </mdclass:Configuration>
