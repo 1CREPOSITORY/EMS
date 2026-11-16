@@ -30,7 +30,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.EMS_ОсновнаяРоль</defaultRoles>
-  <version>26_09_09_v3</version>
+  <version>2026.11.13</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="30354782-b3e3-449a-9eac-4b2a35a984e3">
