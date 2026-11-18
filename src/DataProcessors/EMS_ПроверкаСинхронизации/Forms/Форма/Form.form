@@ -1070,12 +1070,15 @@
             <type>InputField</type>
             <readOnly>true</readOnly>
             <editMode>Enter</editMode>
+            <fixingInTable>Left</fixingInTable>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
+              <width>16</width>
+              <autoMaxWidth>false</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
+              <horizontalStretch>false</horizontalStretch>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
@@ -1225,10 +1228,14 @@
           <verticalLines>true</verticalLines>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
+          <initialTreeView>NoExpand</initialTreeView>
           <horizontalStretch>true</horizontalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <representation>Tree</representation>
+          <changeRowSet>false</changeRowSet>
+          <changeRowOrder>false</changeRowOrder>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <items xsi:type="form:Table">
@@ -7405,6 +7412,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <saveDataInSettings>UseList</saveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -7919,7 +7930,7 @@
     </title>
     <id>1041</id>
     <valueType>
-      <types>ValueTable</types>
+      <types>ValueTree</types>
     </valueType>
     <view>
       <common>true</common>
