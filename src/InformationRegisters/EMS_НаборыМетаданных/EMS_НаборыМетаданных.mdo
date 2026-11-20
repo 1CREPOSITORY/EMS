@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7c3e1b2-4d58-4f90-9a11-6b2c8e0d4f31">
+  <producedTypes>
+    <selectionType typeId="b1d4e6a8-2c70-4f11-9b33-1a5e7c9d0b21" valueTypeId="c2e5f7b9-3d81-4a22-8c44-2b6f8d0e1c32"/>
+    <listType typeId="d3f6a8c0-4e92-4b33-9d55-3c7a9e1f2d43" valueTypeId="e4a7b9d1-5f03-4c44-8e66-4d8b0f2a3e54"/>
+    <managerType typeId="f5b8c0e2-6014-4d55-9f77-5e9c1a3b4f65" valueTypeId="a6c9d1f3-7125-4e66-8078-6f0d2b4c5076"/>
+    <recordSetType typeId="b7d0e2a4-8236-4f77-9189-701e3c5d6187" valueTypeId="c8e1f3b5-9347-4088-a29a-812f4d6e7298"/>
+    <recordKeyType typeId="d9f2a4c6-a458-4199-b3ab-923a5e7f83a9" valueTypeId="e0a3b5d7-b569-42aa-c4bc-a34b6f8094ba"/>
+    <recordType typeId="f1b4c6e8-c67a-43bb-d5cd-b45c7091a5cb" valueTypeId="a2c5d7f9-d78b-44cc-e6de-c56d81a2b6dc"/>
+    <recordManagerType typeId="b3d6e8a0-e89c-45dd-f7ef-d67e92b3c7ed" valueTypeId="c4e7f9b1-f9ad-46ee-80f0-e78f03c4d8fe"/>
+  </producedTypes>
+  <name>EMS_НаборыМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы метаданных (EMS)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.EMS_НаборыМетаданных.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Nonperiodical</informationRegisterPeriodicity>
+  <writeMode>Independent</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d5f8a0c2-0abe-47ff-91a1-f89a14d5e90f">
+    <name>СписокМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список метаданных</value>
+    </synonym>
+    <comment>Полные имена объектов, по одному в строке. Например, Документ.НачислениеЗарплаты.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>0</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полные имена объектов метаданных, каждое с новой строки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="e6a9b1d3-1bcf-4800-a2b2-a90b25e6fa10">
+    <name>НаименованиеНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование набора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c4a8e1d2-6b30-4f55-9a17-2d8c0e6b4a91">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

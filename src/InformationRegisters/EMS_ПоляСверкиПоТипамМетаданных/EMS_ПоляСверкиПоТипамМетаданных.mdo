@@ -110,4 +110,47 @@
     <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="79c14e22-9626-4e6e-a6a8-cb43b7a6d967">
+    <name>ОбластьДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EMS_ОбластиДействияПолейСверки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет, применяется настройка ко всему типу метаданных или к конкретному объекту.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5722b492-2aae-4940-87dd-b67a0fa351fe">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных, например Справочник.Организации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>
