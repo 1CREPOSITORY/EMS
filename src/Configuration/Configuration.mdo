@@ -61,6 +61,7 @@
   <catalogs>Catalog.EMS_ПараметрыБаз</catalogs>
   <enums>Enum.EMS_ИсточникиЗапускаСинхронизации</enums>
   <enums>Enum.EMS_РежимыОбработкиПолейСверки</enums>
+  <enums>Enum.EMS_ОбластиДействияПолейСверки</enums>
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.СопоставлениеОбъектовОбмена</dataProcessors>
   <dataProcessors>DataProcessor.ПоискОбъектНеНайден</dataProcessors>

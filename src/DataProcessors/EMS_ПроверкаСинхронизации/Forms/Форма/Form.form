@@ -2058,6 +2058,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>ПоляСверкиПоТипам.ТипМетаданных</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПоляСверкиТипМетаданныхПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПоляСверкиПоТипамТипМетаданныхРасширеннаяПодсказка</name>
               <id>213</id>
@@ -2084,6 +2088,92 @@
               <wrap>true</wrap>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ПоляСверкиПоТипамОбластьДействия</name>
+            <id>1219</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПоляСверкиПоТипам.ОбластьДействия</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПоляСверкиОбластьДействияПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ПоляСверкиПоТипамОбластьДействияРасширеннаяПодсказка</name>
+              <id>1220</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПоляСверкиПоТипамОбластьДействияКонтекстноеМеню</name>
+              <id>1221</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>EnterOnInput</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ПоляСверкиПоТипамОбъектМетаданных</name>
+            <id>1222</id>
+            <visible>false</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПоляСверкиПоТипам.ОбъектМетаданных</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПоляСверкиПоТипамОбъектМетаданныхРасширеннаяПодсказка</name>
+              <id>1223</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПоляСверкиПоТипамОбъектМетаданныхКонтекстноеМеню</name>
+              <id>1224</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>EnterOnInput</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <width>46</width>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <dropListButton>true</dropListButton>
+              <choiceButton>false</choiceButton>
+              <listChoiceMode>true</listChoiceMode>
               <textEdit>true</textEdit>
             </extInfo>
           </items>
@@ -2159,6 +2249,10 @@
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
+          <handlers>
+            <event>OnActivateRow</event>
+            <name>ПоляСверкиПоТипамПриАктивизацииСтроки</name>
+          </handlers>
           <searchStringAddition>
             <name>ПоляСверкиПоТипамСтрокаПоиска</name>
             <id>220</id>
@@ -2290,7 +2384,7 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Поля, значения которых сравниваются после нахождения объекта по ключу. Ключ объекта не меняется. Пустая настройка оставляет стандартный набор полей сравнения.</value>
+          <value>Настройка типа применяется ко всем его объектам. Настройка конкретного объекта имеет приоритет; если её нет, используется настройка типа. Пустой список оставляет стандартный набор полей сравнения. Ключ объекта не меняется.</value>
         </toolTip>
         <toolTipRepresentation>ShowTop</toolTipRepresentation>
         <horizontalStretch>true</horizontalStretch>
