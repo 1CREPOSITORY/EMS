@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="993eae29-9649-453e-a57b-fa940d54db57">
+  <producedTypes>
+    <refType typeId="ab6ddcca-28bd-4669-af4b-fc5b2e6abf3f" valueTypeId="1eec1ccd-ca9f-4633-8019-1de66dce23b6"/>
+    <listType typeId="98a345e8-ab78-42b5-97c7-d3f64c2de22f" valueTypeId="fe2b26a6-c79c-4c8c-bd5c-926314c5816a"/>
+    <managerType typeId="8d0a9c11-bb52-415d-93c9-854fc8a87d4b" valueTypeId="e21cb7d5-9806-4751-92e0-1bcbc4418fdf"/>
+  </producedTypes>
+  <name>EMS_ОбластиДействияПолейСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области действия полей сверки (EMS)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4bde27cd-6c82-4ec1-8038-2ee403df2c81">
+    <name>ТипМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метаданных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c84796c-fb4f-4c5d-b8b1-9e617d1a943a">
+    <name>ОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект метаданных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
