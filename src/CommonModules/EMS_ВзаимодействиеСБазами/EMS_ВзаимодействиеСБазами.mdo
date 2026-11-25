@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5d7832-b502-46f2-9f46-91d1fd0e5fa8">
+  <name>EMS_ВзаимодействиеСБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с базами</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

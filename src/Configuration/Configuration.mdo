@@ -51,10 +51,9 @@
   <commonModules>CommonModule.EMS_АдаптерыСверки</commonModules>
   <commonModules>CommonModule.EMS_АдаптерЗУП</commonModules>
   <commonModules>CommonModule.EMS_ИзмененияПланаОбмена</commonModules>
-  <commonModules>CommonModule.EMS_Express</commonModules>
+  <commonModules>CommonModule.EMS_ВзаимодействиеСБазами</commonModules>
   <commonModules>CommonModule.EMS_ВыполнениеВнешнихОбработок</commonModules>
   <httpServices>HTTPService.ЦТ_HTTP_Сверка</httpServices>
-  <httpServices>HTTPService.Express</httpServices>
   <httpServices>HTTPService.EMS_ExpressData</httpServices>
   <scheduledJobs>ScheduledJob.EMS_ПроверкаСинхронизации</scheduledJobs>
   <scheduledJobs>ScheduledJob.EMS_АктуализацияДанныхПослеСинхронизации</scheduledJobs>
