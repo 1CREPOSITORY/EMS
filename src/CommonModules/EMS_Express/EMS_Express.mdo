@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16bb9dd3-422b-4ed7-be0c-d5b64962f02d">
+  <name>EMS_Express</name>
+  <synonym>
+    <key>ru</key>
+    <value>EMS express</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c92b41f-0d76-4b74-8096-921fc06aceff">
+  <name>Express</name>
+  <synonym>
+    <key>ru</key>
+    <value>Express</value>
+  </synonym>
+  <rootURL>express</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="4d078b76-78c3-4839-9797-dbc7448a5b64">
+    <name>command</name>
+    <synonym>
+      <key>ru</key>
+      <value>Command</value>
+    </synonym>
+    <template>/command</template>
+    <methods uuid="e581417e-cbfd-466c-a32b-ac08818470c1">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>commandPost</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="23eea4f8-4550-4474-ad37-3d7aa4e001ba">
+    <name>status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Status</value>
+    </synonym>
+    <template>/status</template>
+    <methods uuid="7a3c34d5-6c1c-4cbd-b40f-2087d0b5b48e">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>statusGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c66bd5f5-1234-46c0-bc3e-51e4d276fa34">
+    <name>notification_callback</name>
+    <synonym>
+      <key>ru</key>
+      <value>Notification callback</value>
+    </synonym>
+    <template>/notification/callback</template>
+    <methods uuid="fc6c0ee2-47a7-4dd8-9df3-52bdb2418b3a">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>notificationCallbackPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
